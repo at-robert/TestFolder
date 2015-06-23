@@ -18,7 +18,7 @@ class CFT2232TestApp : public CWinApp
 {
 public:
 	CFT2232TestApp();
-
+    int x;
 // ÂÐ¼g
 	public:
 	virtual BOOL InitInstance();

@@ -60,6 +60,8 @@ BOOL CFT2232TestApp::InitInstance()
 
 	CFT2232TestDlg dlg;
 	m_pMainWnd = &dlg;
+	
+	//To add more comments
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)
 	{
