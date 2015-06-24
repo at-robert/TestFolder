@@ -1,0 +1,11 @@
+cache/
+log/*.log
+tmp/
+*.tmp
+*.swp
+*.o
+*.so
+*.a
+*.exe
+*~
+*.bin
