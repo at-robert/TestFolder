@@ -9,7 +9,7 @@
 #define new DEBUG_NEW
 #endif
 
-#define XX //This is a development branch
+#define XX //This is a feature/rob_f1 development branch
 
 // CFT2232TestApp
 
@@ -61,7 +61,7 @@ BOOL CFT2232TestApp::InitInstance()
 
 	CFT2232TestDlg dlg;
 	m_pMainWnd = &dlg;
-	
+
 	//To add more comments
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)
